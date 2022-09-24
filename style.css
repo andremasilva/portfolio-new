@@ -100,7 +100,7 @@ p {
     border: none;
     aspect-ratio: 1;
     top: 1.5rem;
-    right: 1rem;
+    right: 1.5rem;
     z-index: 9999;
     display: block;
   }
