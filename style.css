@@ -66,7 +66,7 @@ p {
   .right-side-nav {
     justify-content: center;
     position: fixed;
-    inset: 0 0 40% 30%;
+    inset: 0 0 40% 40%;
     border-top-left-radius: 1px;
     border-bottom-left-radius: 15px;
     background-color: #ffffff;
@@ -91,10 +91,6 @@ p {
     color: #000000 !important;
   }
 
-  .langues-container ul {
-    margin: 0 20% 0 80%;
-  }
-
   .mobile-nav-toggle {
     position: absolute;
     background-image: url(./img/hamburger.png);
@@ -104,7 +100,7 @@ p {
     border: none;
     aspect-ratio: 1;
     top: 1.5rem;
-    right: 5rem;
+    right: 1rem;
     z-index: 9999;
     display: block;
   }
@@ -548,9 +544,16 @@ h6 {
     scroll-behavior: smooth;
     width: 100%;
   }
+
+  body {
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width: 600px) {
+  .main {
+    width: 455px;
+  }
 
   .preloader {
     display: none;
@@ -602,6 +605,10 @@ h6 {
 
   .img-proj {
     display: none;
+  }
+
+  .footer {
+    width: 455px;
   }
 
   .fLists {
