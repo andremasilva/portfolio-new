@@ -1,13 +1,5 @@
-* {
-  padding: 0 200px 0 200px;
-
-}
-
 body {
-  font-family:
-    Arial,
-    Helvetica,
-    sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: black;
   margin: auto;
   padding: 0;
@@ -148,7 +140,6 @@ p {
 li a:hover {
   text-decoration: underline 5px;
   text-decoration-color: rgb(255, 113, 91);
-
 }
 
 .left-side-nav {
@@ -214,7 +205,7 @@ li a:hover {
 .cloud1 {
   top: 15%;
   transform: translate(100%, -5%);
-  animation: clouds 1.0s infinite 3s;
+  animation: clouds 1s infinite 3s;
 }
 
 .cloud2 {
@@ -229,8 +220,6 @@ li a:hover {
   animation: clouds 2s infinite 1.5s;
 }
 
-
-
 @keyframes clouds {
   from {
     right: 0%;
@@ -240,7 +229,6 @@ li a:hover {
     right: 120%;
   }
 }
-
 
 @keyframes portrait {
   0% {
@@ -375,7 +363,7 @@ h2 {
 .skill5 {
   display: flex;
   background: #141414;
-  width: 58PX;
+  width: 58px;
   justify-content: space-around;
   text-align: center;
   vertical-align: middle;
@@ -385,7 +373,7 @@ h2 {
 .skill4 {
   display: flex;
   background: #141414;
-  width: 88PX;
+  width: 88px;
   justify-content: space-around;
   vertical-align: middle;
   line-height: 20px;
@@ -400,15 +388,12 @@ h2 {
   padding: 0 200px 0 200px;
 }
 
-
-
 p,
 h3 {
   color: #141414;
   font-size: 1.2rem;
   font-weight: 300;
 }
-
 
 .project {
   font: normal 14px/175% "futura", Arial, Helvetica, sans-serif;
@@ -466,7 +451,6 @@ a {
   gap: 10px;
   margin: 10px 0 10px 0;
   font-size: 2rem;
-
 }
 
 .block-left {
@@ -476,7 +460,6 @@ a {
   width: 50%;
   font-size: 20px;
 }
-
 
 .block-left h2 {
   font-size: 80px;
@@ -511,7 +494,6 @@ a {
   height: 300px;
 }
 
-
 /* Footer */
 .footer {
   width: 100%;
@@ -545,18 +527,15 @@ h6 {
   width: 120px;
 }
 
-
 .social {
   height: 38px;
   width: 40px;
 }
 
 @media only screen and (max-width: 600px) {
-
-
   html,
   body {
-    overflow-x: hidden
+    overflow-x: hidden;
   }
 }
 
@@ -604,7 +583,6 @@ h6 {
 
   .skills {
     flex-direction: column;
-
   }
 
   p {
