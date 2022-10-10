@@ -499,37 +499,21 @@ a {
   width: 100%;
   font-size: 12px;
   background: rgb(18, 30, 39);
-
-  color: #fafafa;
-}
-
-.fLists {
-  display: flex;
-  justify-content: space-around;
+  min-height: 6rem;
   color: #fafafa;
 }
 
 .fList {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
+  color: #fafafa;
+  justify-items: center;
   list-style: none;
-  padding: 0;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  margin: auto;
 }
 
 h6 {
   font-size: 13px;
-}
-
-.logoFooter {
-  height: 60px;
-  width: 120px;
-}
-
-.social {
-  height: 38px;
-  width: 40px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -604,12 +588,7 @@ h6 {
     display: none;
   }
 
-  .footer {
-    width: 455px;
-  }
-
-  .fLists {
+  .fList {
     flex-direction: column;
-    padding: 0;
   }
 }
