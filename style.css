@@ -429,7 +429,7 @@ h3 {
 
 .img-proj {
   margin-top: 100px;
-  min-width: 500px;
+  max-width: 40rem;
   height: 260px;
   border-radius: 15px;
 }
@@ -500,7 +500,7 @@ a {
 
 .block-img:hover {
   margin-top: 40px;
-  height: 400px;
+  min-height: 400px;
   border-radius: 277px;
 }
 
